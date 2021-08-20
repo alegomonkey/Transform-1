@@ -1,0 +1,44 @@
+.main-container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.block {
+  height: 3rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block1 {
+  background-color: red;
+}
+  
+.block2 {
+  background-color: green;
+  transform: rotate(45deg);
+  transform-origin: top left;
+}
+
+.block3 {
+  background-color: purple;
+  margin: 5rem auto;
+  transform: scale(1.2) skewx(30deg) translatex(10em);
+}
+
+.block4 {
+  text-decoration: underline;
+  width: 20rem;
+  font-size: 2rem;
+}
+
+.block5 {
+  width: 20rem;
+  font-size: 2rem;
+  transform: rotatex(180deg) skewx(-40deg) translate(25px, 20px);
+}
